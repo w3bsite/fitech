@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "bool": {
+      "type": "boolean"
+    },
+    "obj": {
+      "type": "json"
+    }
+  }
+}

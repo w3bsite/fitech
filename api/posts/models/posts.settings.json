@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "posts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "conteent": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "boolian": {
+      "type": "boolean"
+    },
+    "obj": {
+      "type": "json"
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}
