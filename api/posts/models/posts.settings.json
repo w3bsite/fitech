@@ -14,13 +14,13 @@
     "title": {
       "type": "string"
     },
-    "conteent": {
+    "content": {
       "type": "richtext"
     },
     "date": {
       "type": "date"
     },
-    "boolian": {
+    "bool": {
       "type": "boolean"
     },
     "obj": {
